@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .contact-container{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient(-200deg,#ca9ab6,#fdf5e6);
     display: flex;
@@ -82,14 +82,14 @@
 @media (max-width:576px) {
     .contact-container{
         width: 100vw;
+        /* height: 100vh; */
         flex-direction: column;
     }
     .contact-inputs{
-        width: 320px;
+        width: 300px;
     }
     .contact-right{
-        width: 320px;
-        /* border: 10px solid tomato; */
+        width: 300px;
     }
     .contact-right img{
         width: 100%;
