@@ -69,7 +69,7 @@
     justify-content: space-evenly;
     gap: 7px;
 }
-.contact-submit img{
+.contact-submit button img{
     width: 10px;
 }
 .contact-right{
@@ -86,10 +86,10 @@
         flex-direction: column;
     }
     .contact-inputs{
-        width: 200px;
+        width: 80vw;
     }
     .contact-right{
-        width: 250px;
+        width: 80vw;
     }
     .contact-right img{
         width: 100%;
